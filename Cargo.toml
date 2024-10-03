@@ -1,6 +1,6 @@
 [package]
 name = "intiface-engine"
-version = "3.0.1"
+version = "3.0.2"
 authors = ["Nonpolynomial Labs, LLC <kyle@nonpolynomial.com>"]
 description = "CLI and Library frontend for the Buttplug sex toy control library"
 license = "BSD-3-Clause"
@@ -26,8 +26,12 @@ tokio-console=["console-subscriber"]
 
 [dependencies]
 # buttplug = { path = "../buttplug/buttplug" }
+<<<<<<< HEAD
 # buttplug = "9.0.0"
 buttplug = { git = 'https://github.com/blackspherefollower/buttplug-rs', branch = 'loob-support' }
+=======
+buttplug = "9.0.1"
+>>>>>>> a8b6feb (build/doc: Update dep/version/CHANGELOG for v3.0.2)
 argh = "0.1.12"
 log = "0.4.22"
 futures = "0.3.30"
